@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.Python
+
+# Training artifacts
+logs/
+checkpoints/
+storage/
+*.csv
+*.log
+runs/
+wandb/
+tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

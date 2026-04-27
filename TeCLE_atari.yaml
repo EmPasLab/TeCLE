@@ -1,0 +1,30 @@
+name: TeCLE_atari
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - pytorch-cuda=11.7
+  - pip:
+      - absl-py==2.1.0
+      - numpy==1.26.4
+      - opencv-python==4.10.0.84
+      - python-snappy==0.7.2
+      - pillow==10.3.0
+      - tqdm==4.66.4
+      - typing-extensions==4.11.0
+      - tensorboard==2.17.0
+      - tensorboardx==2.6.2.2
+      - gym==0.25.2
+      - gymnasium==0.29.1
+      - ale-py==0.7.5
+      - autorom==0.4.2
+      - autorom-accept-rom-license==0.6.1
+      - minigrid==2.3.1

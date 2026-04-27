@@ -1,8 +1,8 @@
 # A Temporally Correlated Latent Exploration for Reinforcement Learning
 
-**Affiliation:** EmPasLab
-
 This repository contains the official implementation of **A Temporally Correlated Latent Exploration (TeCLE)**, a novel intrinsic reward formulation that employs an action-conditioned latent space and temporally correlated noise.
+
+![TeCLE method overview](assets/method.png)
 
 ## Repository Layout
 
